@@ -1,0 +1,17 @@
+{
+  "name": "es6-fat-arrows",
+  "version": "1.0.0",
+  "description": "yarn file",
+  "main": "index.js",
+  "repository": "https://github.com/m0m0i/cc5-mini.fat-arrow.git",
+  "author": "Dustin Tran <>",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^5.1.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "eslint . && mocha"
+  }
+}
