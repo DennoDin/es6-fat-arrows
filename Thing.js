@@ -1,13 +1,13 @@
-var getEmpty = function() {
+const getEmpty = function() {
   return {};
 };
 
 // multi-line
-var fall = function(time) {
-  var pos = 0;
-  var velocity = 0;
-  var g = 9.8;
-  for (var i = 0; i < time; i++) {
+const fall = function(time) {
+  let pos = 0;
+  let velocity = 0;
+  const g = 9.8;
+  for (let i = 0; i < time; i++) {
     velocity += g;
     pos += velocity;
   }
