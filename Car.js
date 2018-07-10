@@ -6,10 +6,9 @@ class Car {
   }
 
   drive() {
-    var self = this;
-    const tick = function() {
-      console.log("my name is: " + self.name);
-      self.odometer++;
+    const tick = () => {
+      console.log("my name is: " + this.name);
+      this.odometer++;
     };
     this.intervalId = setInterval(tick, 1000);
   }
